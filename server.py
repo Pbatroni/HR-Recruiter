@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 
 BASE_DIR = Path(__file__).resolve().parent
 PUBLIC_DIR = BASE_DIR / "public"
-CSV_PATH = BASE_DIR.parent / "employees.csv"
+CSV_PATH = BASE_DIR / "data" / "employees.csv"
 
 
 def load_employees():

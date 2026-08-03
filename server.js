@@ -4,7 +4,7 @@ const path = require('path');
 
 const rootDir = __dirname;
 const publicDir = path.join(rootDir, 'public');
-const csvPath = path.join(rootDir, '..', 'employees.csv');
+const csvPath = path.join(rootDir, 'data', 'employees.csv');
 
 function parseCsv(text) {
   const lines = text.trim().split(/\r?\n/).filter(Boolean);

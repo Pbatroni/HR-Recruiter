@@ -1,0 +1,27 @@
+employee_id,full_name,recruiting_source,employment_status,department,date_of_hire,date_of_termination
+1,Ava Patel,LinkedIn,Active,Engineering,2021-03-15,
+2,Marcus Chen,Referral,Active,Design,2020-07-01,
+3,Nina Gomez,Job Board,Terminated,Operations,2019-11-04,2021-05-30
+4,Liam Brooks,LinkedIn,Active,Analytics,2022-01-10,
+5,Sophia Nguyen,Employee Referral,Active,HR,2021-08-23,
+6,Noah Rivera,Indeed,Terminated,Operations,2018-09-17,2020-12-11
+7,Mia Thompson,Referral,Active,Marketing,2023-02-06,
+8,Ethan Brooks,LinkedIn,Active,Engineering,2022-10-19,
+9,Olivia Martinez,LinkedIn,Active,Sales,2023-04-01,
+10,James Carter,Job Board,Terminated,Sales,2019-06-12,2022-03-08
+11,Ava Robinson,Employee Referral,Active,Finance,2021-01-25,
+12,Benjamin Lee,Indeed,Terminated,Finance,2020-02-14,2021-07-19
+13,Charlotte Kim,Referral,Active,Product,2022-05-30,
+14,Lucas Wright,LinkedIn,Active,Product,2023-09-11,
+15,Amelia Scott,Job Board,Terminated,Customer Support,2018-12-03,2020-04-22
+16,Henry Diaz,Employee Referral,Active,Customer Support,2021-11-08,
+17,Isabella Torres,LinkedIn,Active,Legal,2022-06-17,
+18,Jack Foster,Indeed,Terminated,Legal,2019-03-29,2021-01-15
+19,Harper Bennett,Referral,Active,Engineering,2024-01-08,
+20,Sebastian Reed,Job Board,Active,HR,2023-07-22,
+21,Grace Whitfield,LinkedIn,Active,Mental Health,2022-03-14,
+22,Daniel Osei,Employee Referral,Active,Mental Health,2023-06-01,
+23,Priya Anand,Referral,Terminated,Mental Health,2021-09-20,2023-11-03
+24,Marcus Ellis,Indeed,Active,Administrative,2022-01-10,
+25,Ruth Alvarez,Job Board,Active,Administrative,2023-02-15,
+26,Victor Huang,LinkedIn,Terminated,Administrative,2020-05-04,2022-08-30
