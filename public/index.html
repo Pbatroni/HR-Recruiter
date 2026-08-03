@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">HR data insights</p>
+          <h1>Employee overview</h1>
+          <p class="subtitle">A simple dashboard powered by your CSV employee data.</p>
+        </div>
+      </section>
+
+      <section class="summary-grid" id="summary-grid"></section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Employee records</h2>
+          <div class="controls">
+            <label>
+              Search
+              <input id="search" type="search" placeholder="Search by name or department" />
+            </label>
+            <label>
+              Status
+              <select id="statusFilter">
+                <option value="all">All</option>
+                <option value="active">Active</option>
+                <option value="terminated">Terminated</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Source</th>
+                <th>Status</th>
+                <th>Department</th>
+              </tr>
+            </thead>
+            <tbody id="employee-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

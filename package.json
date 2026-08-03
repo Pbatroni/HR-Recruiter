@@ -1,0 +1,9 @@
+{
+  "name": "employees-dashboard",
+  "version": "1.0.0",
+  "description": "Employee CSV dashboard with a simple Node.js backend and frontend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
