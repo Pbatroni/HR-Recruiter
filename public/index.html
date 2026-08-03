@@ -3,16 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Employee Dashboard</title>
+    <title>HR Recruiter Dashboard</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <span class="brand-mark">HR</span>
+          <span class="brand-name">HR Recruiter</span>
+        </div>
+        <nav class="topbar-nav">
+          <span class="nav-item active">Dashboard</span>
+        </nav>
+      </div>
+    </header>
+
     <main class="page">
       <section class="hero">
         <div>
-          <p class="eyebrow">HR data insights</p>
+          <p class="eyebrow">Workforce insights</p>
           <h1>Employee overview</h1>
-          <p class="subtitle">A simple dashboard powered by your CSV employee data.</p>
+          <p class="subtitle">A real-time view of headcount, hiring activity, and department distribution.</p>
         </div>
       </section>
 
@@ -25,6 +37,12 @@
             <label>
               Search
               <input id="search" type="search" placeholder="Search by name or department" />
+            </label>
+            <label>
+              Department
+              <select id="departmentFilter">
+                <option value="all">All departments</option>
+              </select>
             </label>
             <label>
               Status
@@ -42,9 +60,11 @@
               <tr>
                 <th>ID</th>
                 <th>Name</th>
+                <th>Department</th>
                 <th>Source</th>
                 <th>Status</th>
-                <th>Department</th>
+                <th>Date of Hire</th>
+                <th>Date of Termination</th>
               </tr>
             </thead>
             <tbody id="employee-table-body"></tbody>
