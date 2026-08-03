@@ -49,7 +49,8 @@
               <select id="statusFilter">
                 <option value="all">All</option>
                 <option value="active">Active</option>
-                <option value="terminated">Terminated</option>
+                <option value="voluntarily terminated">Voluntarily Terminated</option>
+                <option value="terminated for cause">Terminated for Cause</option>
               </select>
             </label>
           </div>
@@ -60,11 +61,12 @@
               <tr>
                 <th>ID</th>
                 <th>Name</th>
+                <th>Job Title</th>
                 <th>Department</th>
-                <th>Source</th>
                 <th>Status</th>
                 <th>Date of Hire</th>
                 <th>Date of Termination</th>
+                <th>Source</th>
               </tr>
             </thead>
             <tbody id="employee-table-body"></tbody>

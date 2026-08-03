@@ -1,27 +1,312 @@
-employee_id,full_name,recruiting_source,employment_status,department,date_of_hire,date_of_termination
-1,Ava Patel,LinkedIn,Active,Engineering,2021-03-15,
-2,Marcus Chen,Referral,Active,Design,2020-07-01,
-3,Nina Gomez,Job Board,Terminated,Operations,2019-11-04,2021-05-30
-4,Liam Brooks,LinkedIn,Active,Analytics,2022-01-10,
-5,Sophia Nguyen,Employee Referral,Active,HR,2021-08-23,
-6,Noah Rivera,Indeed,Terminated,Operations,2018-09-17,2020-12-11
-7,Mia Thompson,Referral,Active,Marketing,2023-02-06,
-8,Ethan Brooks,LinkedIn,Active,Engineering,2022-10-19,
-9,Olivia Martinez,LinkedIn,Active,Sales,2023-04-01,
-10,James Carter,Job Board,Terminated,Sales,2019-06-12,2022-03-08
-11,Ava Robinson,Employee Referral,Active,Finance,2021-01-25,
-12,Benjamin Lee,Indeed,Terminated,Finance,2020-02-14,2021-07-19
-13,Charlotte Kim,Referral,Active,Product,2022-05-30,
-14,Lucas Wright,LinkedIn,Active,Product,2023-09-11,
-15,Amelia Scott,Job Board,Terminated,Customer Support,2018-12-03,2020-04-22
-16,Henry Diaz,Employee Referral,Active,Customer Support,2021-11-08,
-17,Isabella Torres,LinkedIn,Active,Legal,2022-06-17,
-18,Jack Foster,Indeed,Terminated,Legal,2019-03-29,2021-01-15
-19,Harper Bennett,Referral,Active,Engineering,2024-01-08,
-20,Sebastian Reed,Job Board,Active,HR,2023-07-22,
-21,Grace Whitfield,LinkedIn,Active,Mental Health,2022-03-14,
-22,Daniel Osei,Employee Referral,Active,Mental Health,2023-06-01,
-23,Priya Anand,Referral,Terminated,Mental Health,2021-09-20,2023-11-03
-24,Marcus Ellis,Indeed,Active,Administrative,2022-01-10,
-25,Ruth Alvarez,Job Board,Active,Administrative,2023-02-15,
-26,Victor Huang,LinkedIn,Terminated,Administrative,2020-05-04,2022-08-30
+employee_id,full_name,job_title,department,employment_status,date_of_hire,date_of_termination,recruitment_source
+10026,"Adinolfi, Wilson  K",Production Technician I,Production,Active,2011-07-05,,LinkedIn
+10084,"Ait Sidi, Karthikeyan",Sr. DBA,IT/IS,Voluntarily Terminated,2015-03-30,2016-06-16,Indeed
+10196,"Akinkuolie, Sarah",Production Technician II,Production,Voluntarily Terminated,2011-07-05,2012-09-24,LinkedIn
+10088,"Alagbe,Trina",Production Technician I,Production,Active,2008-01-07,,Indeed
+10069,"Anderson, Carol",Production Technician I,Production,Voluntarily Terminated,2011-07-11,2016-09-06,Google Search
+10002,"Anderson, Linda",Production Technician I,Production,Active,2012-01-09,,LinkedIn
+10194,"Andreola, Colby",Software Engineer,Software Engineering,Active,2014-11-10,,LinkedIn
+10062,"Athwal, Sam",Production Technician I,Production,Active,2013-09-30,,Employee Referral
+10114,"Bachiochi, Linda",Production Technician I,Production,Active,2009-07-06,,Diversity Job Fair
+10250,"Bacong, Alejandro",IT Support,IT/IS,Active,2015-01-05,,Indeed
+10252,"Baczenski, Rachael",Production Technician I,Production,Voluntarily Terminated,2011-01-10,2017-01-12,Diversity Job Fair
+10242,"Barbara, Thomas",Production Technician I,Production,Voluntarily Terminated,2012-04-02,2016-09-19,Diversity Job Fair
+10012,"Barbossa, Hector",Data Analyst,IT/IS,Active,2014-11-10,,Diversity Job Fair
+10265,"Barone, Francesco  A",Production Technician I,Production,Active,2012-02-20,,Google Search
+10066,"Barton, Nader",Production Technician I,Production,Voluntarily Terminated,2012-09-24,2017-04-06,On-line Web application
+10061,"Bates, Norman",Production Technician I,Production,Terminated for Cause,2011-02-21,2017-08-04,Google Search
+10023,"Beak, Kimberly",Production Technician II,Production,Active,2016-07-21,,Employee Referral
+10055,"Beatrice, Courtney",Production Technician I,Production,Active,2011-04-04,,Google Search
+10245,"Becker, Renee",Database Administrator,IT/IS,Terminated for Cause,2014-07-07,2015-09-12,Google Search
+10277,"Becker, Scott",Production Technician I,Production,Active,2013-07-08,,LinkedIn
+10046,"Bernstein, Sean",Production Technician I,Production,Active,2012-04-02,,Google Search
+10226,"Biden, Lowan  M",Production Technician I,Production,Active,2013-08-19,,Indeed
+10003,"Billis, Helen",Production Technician I,Production,Active,2014-07-07,,Indeed
+10294,"Blount, Dianna",Production Technician II,Production,Active,2011-04-04,,CareerBuilder
+10267,"Bondwell, Betsy",Production Technician II,Production,Voluntarily Terminated,2011-01-10,2014-04-04,Google Search
+10199,"Booth, Frank",Enterprise Architect,IT/IS,Terminated for Cause,2014-02-17,2016-02-19,LinkedIn
+10081,"Boutwell, Bonalyn",Sr. Accountant,Admin Offices,Active,2015-02-16,,Diversity Job Fair
+10175,"Bozzi, Charles",Production Manager,Production,Voluntarily Terminated,2013-09-30,2014-08-07,Indeed
+10177,"Brill, Donna",Production Technician I,Production,Voluntarily Terminated,2012-04-02,2013-06-15,Google Search
+10238,"Brown, Mia",Accountant I,Admin Offices,Active,2008-10-27,,Diversity Job Fair
+10184,"Buccheri, Joseph",Production Technician II,Production,Active,2014-09-29,,Google Search
+10203,"Bugali, Josephine",Production Technician I,Production,Active,2013-11-11,,Diversity Job Fair
+10188,"Bunbury, Jessica",Area Sales Manager,Sales,Voluntarily Terminated,2011-08-15,2014-08-02,Google Search
+10107,"Burke, Joelle",Production Technician II,Production,Active,2012-03-05,,Employee Referral
+10181,"Burkett, Benjamin",Production Technician II,Production,Active,2011-04-04,,Indeed
+10150,"Cady, Max",Software Engineering Manager,Software Engineering,Active,2011-08-15,,Google Search
+10001,"Candie, Calvin",Production Manager,Production,Active,2016-01-28,,Indeed
+10085,"Carabbio, Judith",Software Engineer,Software Engineering,Active,2013-11-11,,Indeed
+10115,"Carey, Michael",Production Technician I,Production,Active,2014-03-31,,LinkedIn
+10082,"Carr, Claudia  N",Sr. DBA,IT/IS,Active,2016-06-30,,LinkedIn
+10040,"Carter, Michelle",Area Sales Manager,Sales,Active,2014-08-18,,Indeed
+10067,"Chace, Beatrice",Production Technician I,Production,Active,2014-09-29,,Google Search
+10108,"Champaigne, Brian",BI Director,IT/IS,Active,2016-09-06,,Indeed
+10210,"Chan, Lin",Production Technician I,Production,Active,2014-05-12,,Indeed
+10154,"Chang, Donovan  E",Production Technician I,Production,Active,2013-07-08,,LinkedIn
+10200,"Chigurh, Anton",Area Sales Manager,Sales,Active,2012-05-14,,Employee Referral
+10240,"Chivukula, Enola",Production Technician I,Production,Voluntarily Terminated,2011-06-27,2015-11-15,Indeed
+10168,"Cierpiszewski, Caroline",Production Technician I,Production,Active,2011-10-03,,Indeed
+10220,"Clayton, Rick",IT Support,IT/IS,Active,2012-09-05,,Indeed
+10275,"Cloninger, Jennifer",Production Technician II,Production,Voluntarily Terminated,2011-05-16,2013-01-07,Google Search
+10269,"Close, Phil",Production Technician II,Production,Voluntarily Terminated,2010-08-30,2011-09-26,Indeed
+10029,"Clukey, Elijian",Production Technician I,Production,Active,2016-07-06,,Employee Referral
+10261,"Cockel, James",Production Technician I,Production,Active,2013-07-08,,Employee Referral
+10292,"Cole, Spencer",Production Technician I,Production,Terminated for Cause,2011-07-11,2016-09-23,LinkedIn
+10282,"Corleone, Michael",Production Manager,Production,Active,2010-07-20,,CareerBuilder
+10019,"Corleone, Vito",Director of Operations,Production,Active,2009-01-05,,Indeed
+10094,"Cornett, Lisa",Production Technician I,Production,Active,2015-01-05,,Indeed
+10193,"Costello, Frank",Data Analyst,IT/IS,Active,2015-03-30,,Indeed
+10132,"Crimmings,   Jean",Production Technician I,Production,Active,2016-07-06,,LinkedIn
+10083,"Cross, Noah",Sr. Network Engineer,IT/IS,Active,2014-11-10,,Employee Referral
+10099,"Daneault, Lynn",Sales Manager,Sales,Active,2014-05-05,,Indeed
+10212,"Daniele, Ann",Sr. Network Engineer,IT/IS,Active,2014-11-10,,LinkedIn
+10056,"Darson, Jene'ya",Production Technician I,Production,Active,2012-07-02,,Indeed
+10143,"Davis, Daniel",Production Technician II,Production,Active,2011-11-07,,LinkedIn
+10311,"Dee, Randy",Production Technician I,Production,Active,2018-07-09,,Indeed
+10070,"DeGweck,  James",Production Technician I,Production,Voluntarily Terminated,2011-05-16,2016-06-08,Indeed
+10155,"Del Bosque, Keyla",Software Engineer,Software Engineering,Active,2012-01-09,,CareerBuilder
+10306,"Delarge, Alex",Area Sales Manager,Sales,Active,2014-09-29,,Indeed
+10100,"Demita, Carla",Production Technician II,Production,Voluntarily Terminated,2011-04-04,2015-11-04,Google Search
+10310,"Desimone, Carl",Production Technician I,Production,Active,2014-07-07,,Indeed
+10197,"DeVito, Tommy",BI Developer,IT/IS,Active,2017-02-15,,Indeed
+10276,"Dickinson, Geoff",Production Technician I,Production,Active,2014-05-12,,Indeed
+10304,"Dietrich, Jenna",Area Sales Manager,Sales,Active,2012-02-20,,Website
+10284,"DiNocco, Lily",Production Technician I,Production,Active,2013-01-07,,Indeed
+10207,"Dobrin, Denisa  S",Production Technician I,Production,Active,2012-04-02,,CareerBuilder
+10133,"Dolan, Linda",IT Support,IT/IS,Active,2015-01-05,,Employee Referral
+10028,"Dougall, Eric",IT Manager - Support,IT/IS,Active,2014-01-05,,Indeed
+10006,"Driver, Elle",Area Sales Manager,Sales,Active,2011-01-10,,Indeed
+10105,"Dunn, Amy",Production Manager,Production,Active,2014-09-18,,Google Search
+10211,"Dunne, Amy",Production Technician I,Production,Active,2010-04-26,,Google Search
+10064,"Eaton, Marianne",Production Technician I,Production,Voluntarily Terminated,2011-04-04,2017-06-06,Google Search
+10247,"Engdahl, Jean",Production Technician I,Production,Active,2014-11-10,,LinkedIn
+10235,"England, Rex",Production Technician I,Production,Active,2014-03-31,,Employee Referral
+10299,"Erilus, Angela",Production Technician II,Production,Active,2014-07-07,,Indeed
+10280,"Estremera, Miguel",Production Technician I,Production,Terminated for Cause,2012-04-02,2018-09-27,Google Search
+10296,"Evensen, April",Production Technician I,Production,Terminated for Cause,2014-02-17,2018-02-25,Google Search
+10290,"Exantus, Susan",Software Engineer,Software Engineering,Terminated for Cause,2011-05-02,2013-06-05,Indeed
+10263,"Faller, Megan",Production Technician II,Production,Active,2014-07-07,,LinkedIn
+10136,"Fancett, Nicole",Production Technician II,Production,Active,2014-02-17,,LinkedIn
+10189,"Ferguson, Susan",Production Technician I,Production,Voluntarily Terminated,2011-11-07,2016-05-17,Google Search
+10308,"Fernandes, Nilson",Production Technician I,Production,Active,2015-05-11,,Indeed
+10309,"Fett, Boba",Network Engineer,IT/IS,Active,2015-03-30,,LinkedIn
+10049,"Fidelia,  Libby",Production Technician I,Production,Active,2012-01-09,,Google Search
+10093,"Fitzpatrick, Michael  J",Production Technician II,Production,Voluntarily Terminated,2011-05-16,2013-06-24,Google Search
+10163,"Foreman, Tanya",Production Technician II,Production,Voluntarily Terminated,2011-04-04,2013-01-09,Google Search
+10305,"Forrest, Alex",Area Sales Manager,Sales,Terminated for Cause,2014-09-29,2018-08-19,Employee Referral
+10015,"Foss, Jason",IT Director,IT/IS,Active,2011-04-15,,Indeed
+10080,"Foster-Baker, Amy",Sr. Accountant,Admin Offices,Active,2009-01-05,,Other
+10258,"Fraval, Maruk",Area Sales Manager,Sales,Active,2011-09-06,,CareerBuilder
+10273,"Galia, Lisa",IT Support,IT/IS,Active,2010-05-01,,LinkedIn
+10111,"Garcia, Raul",Production Technician I,Production,Active,2015-03-30,,Employee Referral
+10257,"Gaul, Barbara",Production Technician I,Production,Active,2011-05-16,,LinkedIn
+10159,"Gentry, Mildred",Production Technician I,Production,Active,2015-03-30,,LinkedIn
+10122,"Gerke, Melisa",Production Technician I,Production,Voluntarily Terminated,2011-11-07,2016-11-15,Diversity Job Fair
+10142,"Gill, Whitney",Area Sales Manager,Sales,Terminated for Cause,2014-07-07,2015-09-05,CareerBuilder
+10283,"Gilles, Alex",Production Technician I,Production,Voluntarily Terminated,2012-04-02,2015-06-25,Diversity Job Fair
+10018,"Girifalco, Evelyn",Production Technician I,Production,Active,2014-09-29,,Indeed
+10255,"Givens, Myriam",Area Sales Manager,Sales,Active,2015-02-16,,Indeed
+10246,"Goble, Taisha",Database Administrator,IT/IS,Terminated for Cause,2015-02-16,2015-03-15,Indeed
+10228,"Goeth, Amon",IT Support,IT/IS,Active,2015-03-30,,LinkedIn
+10243,"Gold, Shenice",Production Technician I,Production,Active,2013-11-11,,Indeed
+10031,"Gonzalez, Cayo",Production Technician I,Production,Active,2011-07-11,,Diversity Job Fair
+10300,"Gonzalez, Juan",Production Technician II,Production,Voluntarily Terminated,2010-04-26,2011-05-30,Diversity Job Fair
+10101,"Gonzalez, Maria",IT Support,IT/IS,Active,2015-01-05,,Employee Referral
+10237,"Good, Susan",Production Technician II,Production,Active,2014-05-12,,LinkedIn
+10051,"Gordon, David",Production Technician I,Production,Active,2012-07-02,,LinkedIn
+10218,"Gosciminski, Phylicia",Production Technician II,Production,Active,2013-09-30,,Google Search
+10256,"Goyal, Roxana",Production Technician I,Production,Active,2013-08-19,,LinkedIn
+10098,"Gray, Elijiah",Production Manager,Production,Active,2015-06-02,,Employee Referral
+10059,"Gross, Paula",Production Technician I,Production,Voluntarily Terminated,2011-02-21,2014-01-11,CareerBuilder
+10234,"Gruber, Hans",BI Developer,IT/IS,Active,2017-04-20,,Indeed
+10109,"Guilianno, Mike",Area Sales Manager,Sales,Voluntarily Terminated,2012-03-07,2014-10-31,LinkedIn
+10125,"Handschiegl, Joanne",Production Technician I,Production,Active,2011-11-28,,Google Search
+10074,"Hankard, Earnest",Production Technician II,Production,Active,2013-11-11,,LinkedIn
+10097,"Harrington, Christie",Production Technician I,Production,Voluntarily Terminated,2012-01-09,2015-12-15,CareerBuilder
+10007,"Harrison, Kara",Production Technician I,Production,Active,2014-05-12,,CareerBuilder
+10129,"Heitzman, Anthony",Production Technician I,Production,Active,2012-08-13,,Google Search
+10075,"Hendrickson, Trina",Production Technician II,Production,Voluntarily Terminated,2011-01-10,2013-06-18,CareerBuilder
+10167,"Hitchcock, Alfred",Area Sales Manager,Sales,Active,2014-08-18,,Indeed
+10195,"Homberger, Adrienne  J",Production Technician II,Production,Voluntarily Terminated,2011-08-15,2012-04-07,Indeed
+10112,"Horton, Jayne",Database Administrator,IT/IS,Active,2015-03-30,,Indeed
+10272,"Houlihan, Debra",Director of Sales,Sales,Active,2014-05-05,,LinkedIn
+10182,"Howard, Estelle",Administrative Assistant,Admin Offices,Terminated for Cause,2015-02-16,2015-04-15,Indeed
+10248,"Hudson, Jane",Production Technician I,Production,Active,2012-02-20,,LinkedIn
+10201,"Hunts, Julissa",Production Technician II,Production,Active,2016-06-06,,LinkedIn
+10214,"Hutter, Rosalie",Production Technician II,Production,Active,2015-06-05,,Indeed
+10160,"Huynh, Ming",Production Technician II,Production,Voluntarily Terminated,2011-02-21,2013-04-01,Google Search
+10289,"Immediato, Walter",Production Manager,Production,Voluntarily Terminated,2011-02-21,2012-09-24,Indeed
+10139,"Ivey, Rose",Production Technician I,Production,Active,2013-08-19,,Indeed
+10227,"Jackson, Maryellen",Production Technician I,Production,Active,2012-11-05,,LinkedIn
+10236,"Jacobi, Hannah",Production Technician I,Production,Active,2013-09-30,,Employee Referral
+10009,"Jeannite, Tayana",Production Technician II,Production,Active,2011-07-05,,LinkedIn
+10060,"Jhaveri, Sneha",Production Technician I,Production,Active,2014-01-06,,LinkedIn
+10034,"Johnson, George",Production Technician I,Production,Voluntarily Terminated,2011-11-07,2018-04-29,CareerBuilder
+10156,"Johnson, Noelle",Database Administrator,IT/IS,Active,2015-01-05,,Indeed
+10036,"Johnston, Yen",Production Technician II,Production,Active,2014-07-07,,LinkedIn
+10138,"Jung, Judy",Production Technician I,Production,Voluntarily Terminated,2011-01-10,2016-04-01,CareerBuilder
+10244,"Kampew, Donysha",Sales Manager,Sales,Voluntarily Terminated,2011-11-07,2014-04-24,Google Search
+10192,"Keatts, Kramer",Production Technician I,Production,Active,2013-09-30,,Indeed
+10231,"Khemmich, Bartholemew",Area Sales Manager,Sales,Active,2013-08-19,,Indeed
+10089,"King, Janet",President & CEO,Executive Office,Active,2012-07-02,,Indeed
+10166,"Kinsella, Kathleen",Production Technician I,Production,Voluntarily Terminated,2011-09-26,2015-06-04,Google Search
+10170,"Kirill, Alexandra",Production Technician I,Production,Voluntarily Terminated,2011-09-26,2014-01-09,Google Search
+10208,"Knapp, Bradley  J",Production Technician I,Production,Active,2014-02-17,,LinkedIn
+10176,"Kretschmer, John",Production Technician I,Production,Active,2011-01-10,,Indeed
+10165,"Kreuger, Freddy",Area Sales Manager,Sales,Active,2011-03-07,,Diversity Job Fair
+10113,"Lajiri,  Jyoti",Sr. Network Engineer,IT/IS,Active,2014-11-10,,Employee Referral
+10092,"Landa, Hans",Production Manager,Production,Terminated for Cause,2011-01-10,2015-12-12,Employee Referral
+10106,"Langford, Lindsey",Production Technician II,Production,Voluntarily Terminated,2013-01-07,2014-03-31,Indeed
+10052,"Langton, Enrico",Production Technician I,Production,Active,2012-07-09,,LinkedIn
+10038,"LaRotonda, William",Accountant I,Admin Offices,Active,2014-01-06,,Website
+10249,"Latif, Mohammed",Production Technician II,Production,Voluntarily Terminated,2012-04-02,2013-04-15,Google Search
+10232,"Le, Binh",Senior BI Developer,IT/IS,Active,2016-10-02,,Indeed
+10087,"Leach, Dallas",Production Technician I,Production,Voluntarily Terminated,2011-09-26,2018-08-19,CareerBuilder
+10134,"LeBlanc, Brandon  R",Shared Services Manager,Admin Offices,Active,2016-01-05,,CareerBuilder
+10251,"Lecter, Hannibal",Production Technician I,Production,Active,2012-05-14,,Google Search
+10103,"Leruth, Giovanni",Area Sales Manager,Sales,Active,2012-04-30,,Website
+10017,"Liebig, Ketsia",Production Manager,Production,Active,2013-09-30,,Website
+10186,"Linares, Marilyn",Production Technician I,Production,Voluntarily Terminated,2011-07-05,2018-09-26,Indeed
+10137,"Linden, Mathew",Production Technician II,Production,Active,2013-07-08,,LinkedIn
+10008,"Lindsay, Leonara",IT Support,IT/IS,Active,2011-01-21,,Diversity Job Fair
+10096,"Lundy, Susan",Production Technician II,Production,Voluntarily Terminated,2013-07-08,2016-09-15,LinkedIn
+10035,"Lunquist, Lisa",Production Technician II,Production,Active,2013-08-19,,Indeed
+10057,"Lydon, Allison",Production Technician I,Production,Active,2015-02-16,,Website
+10004,"Lynch, Lindsay",Production Technician I,Production,Voluntarily Terminated,2011-11-07,2015-11-14,Diversity Job Fair
+10191,"MacLennan, Samuel",Production Technician I,Production,Voluntarily Terminated,2012-09-24,2017-09-26,Indeed
+10219,"Mahoney, Lauren",Production Technician I,Production,Active,2014-01-06,,LinkedIn
+10077,"Manchester, Robyn",Production Technician II,Production,Active,2016-05-11,,LinkedIn
+10073,"Mancuso, Karen",Production Technician II,Production,Voluntarily Terminated,2011-07-05,2012-08-19,LinkedIn
+10279,"Mangal, Debbie",Production Technician I,Production,Active,2013-11-11,,LinkedIn
+10110,"Martin, Sandra",Software Engineer,Software Engineering,Active,2013-11-11,,Google Search
+10053,"Maurice, Shana",Production Technician I,Production,Active,2011-05-31,,Indeed
+10076,"Carthy, B'rigit",Production Technician II,Production,Active,2015-03-30,,LinkedIn
+10145,"Mckenna, Sandy",Production Technician I,Production,Active,2013-01-07,,CareerBuilder
+10202,"McKinzie, Jac",Area Sales Manager,Sales,Active,2016-07-06,,Website
+10128,"Meads, Elizabeth",Production Technician I,Production,Voluntarily Terminated,2012-04-02,2016-11-11,Diversity Job Fair
+10068,"Medeiros, Jennifer",Production Technician I,Production,Active,2015-03-30,,CareerBuilder
+10116,"Miller, Brannon",Production Manager,Production,Active,2012-08-16,,Indeed
+10298,"Miller, Ned",Production Technician II,Production,Voluntarily Terminated,2011-08-15,2014-09-04,LinkedIn
+10213,"Monkfish, Erasumus",Production Technician II,Production,Active,2011-11-07,,LinkedIn
+10288,"Monroe, Peter",IT Manager - Infra,IT/IS,Active,2012-02-15,,Diversity Job Fair
+10025,"Monterro, Luisa",Production Technician II,Production,Active,2013-05-13,,Indeed
+10223,"Moran, Patrick",Production Technician II,Production,Active,2012-01-09,,Diversity Job Fair
+10151,"Morway, Tanya",Network Engineer,IT/IS,Active,2015-02-16,,CareerBuilder
+10254,"Motlagh,  Dawn",Production Technician I,Production,Active,2013-04-01,,LinkedIn
+10120,"Moumanil, Maliki",Production Technician II,Production,Active,2013-05-13,,LinkedIn
+10216,"Myers, Michael",Production Technician I,Production,Active,2013-07-08,,LinkedIn
+10079,"Navathe, Kurt",Senior BI Developer,IT/IS,Active,2017-02-10,,Indeed
+10215,"Ndzi, Colombui",Production Technician I,Production,Voluntarily Terminated,2011-09-26,2014-04-04,Diversity Job Fair
+10185,"Ndzi, Horia",Production Technician I,Production,Voluntarily Terminated,2013-04-01,2016-05-25,Employee Referral
+10063,"Newman, Richard",Production Technician I,Production,Active,2014-05-12,,LinkedIn
+10037,"Ngodup, Shari",Production Technician I,Production,Active,2013-04-01,,Diversity Job Fair
+10042,"Nguyen, Dheepa",Area Sales Manager,Sales,Active,2013-07-08,,Indeed
+10206,"Nguyen, Lei-Ming",Production Technician I,Production,Active,2013-07-08,,LinkedIn
+10104,"Nowlan, Kristie",Production Technician II,Production,Active,2014-11-10,,Indeed
+10303,"O'hare, Lynn",Production Technician I,Production,Terminated for Cause,2014-03-31,2018-05-01,LinkedIn
+10078,"Oliver, Brooke",Production Technician II,Production,Voluntarily Terminated,2012-05-14,2013-08-19,LinkedIn
+10121,"Onque, Jasmine",Area Sales Manager,Sales,Active,2013-09-30,,Indeed
+10021,"Osturnka, Adeel",Production Technician I,Production,Active,2013-09-30,,LinkedIn
+10281,"Owad, Clinton",Production Technician I,Production,Active,2014-02-17,,LinkedIn
+10041,"Ozark, Travis",Area Sales Manager,Sales,Active,2015-01-05,,Website
+10148,"Panjwani, Nina",Production Technician I,Production,Voluntarily Terminated,2011-02-07,2014-01-12,Google Search
+10005,"Patronick, Lucas",Software Engineer,Software Engineering,Voluntarily Terminated,2011-11-07,2015-09-07,Diversity Job Fair
+10259,"Pearson, Randall",Data Analyst,IT/IS,Voluntarily Terminated,2014-12-01,2016-05-01,Employee Referral
+10286,"Smith, Martin",Production Technician I,Production,Voluntarily Terminated,2011-01-10,2017-12-28,Google Search
+10297,"Pelletier, Ermine",Production Technician II,Production,Voluntarily Terminated,2011-07-05,2015-09-15,CareerBuilder
+10171,"Perry, Shakira",Production Technician I,Production,Voluntarily Terminated,2011-05-16,2015-10-25,LinkedIn
+10032,"Peters, Lauren",Production Technician II,Production,Voluntarily Terminated,2011-05-16,2013-02-04,Indeed
+10130,"Peterson, Ebonee",Production Manager,Production,Voluntarily Terminated,2010-10-25,2016-05-18,Indeed
+10217,"Petingill, Shana",Production Technician II,Production,Active,2012-04-02,,LinkedIn
+10016,"Petrowsky, Thelma",Data Analyst,IT/IS,Active,2014-11-10,,Employee Referral
+10050,"Pham, Hong",Production Technician I,Production,Voluntarily Terminated,2011-07-05,2012-11-30,Google Search
+10164,"Pitt, Brad",Production Technician I,Production,Active,2007-11-05,,Google Search
+10124,"Potts, Xana",Area Sales Manager,Sales,Active,2012-01-09,,Website
+10187,"Power, Morissa",Production Technician I,Production,Voluntarily Terminated,2011-05-16,2018-06-04,Google Search
+10225,"Punjabhi, Louis",Production Technician I,Production,Active,2014-01-06,,Employee Referral
+10262,"Purinton, Janine",Production Technician I,Production,Voluntarily Terminated,2012-09-24,2013-06-18,Indeed
+10131,"Quinn, Sean",Software Engineer,Software Engineering,Voluntarily Terminated,2011-02-21,2015-08-15,Diversity Job Fair
+10239,"Rachael, Maggie",BI Developer,IT/IS,Active,2016-10-02,,Indeed
+10152,"Rarrick, Quinn",Production Technician I,Production,Voluntarily Terminated,2011-09-26,2018-04-07,Indeed
+10140,"Ren, Kylo",Area Sales Manager,Sales,Active,2014-05-12,,CareerBuilder
+10058,"Rhoads, Thomas",Production Technician I,Production,Voluntarily Terminated,2011-05-16,2016-01-15,LinkedIn
+10011,"Rivera, Haley",Production Technician I,Production,Active,2011-11-28,,Google Search
+10230,"Roberson, May",Production Technician II,Production,Voluntarily Terminated,2011-09-26,2011-10-22,Google Search
+10224,"Robertson, Peter",Production Technician II,Production,Voluntarily Terminated,2011-07-05,2012-02-08,Indeed
+10047,"Robinson, Alain",Production Technician I,Production,Voluntarily Terminated,2011-01-10,2016-01-26,Indeed
+10285,"Robinson, Cherly",Production Technician I,Production,Terminated for Cause,2011-01-10,2016-05-17,Indeed
+10020,"Robinson, Elias",Production Technician I,Production,Active,2013-07-08,,Employee Referral
+10162,"Roby, Lori",Data Analyst,IT/IS,Active,2015-02-16,,Employee Referral
+10149,"Roehrich, Bianca",Principal Data Architect,IT/IS,Voluntarily Terminated,2015-01-05,2018-11-10,LinkedIn
+10086,"Roper, Katie",Data Architect,IT/IS,Active,2017-01-07,,Indeed
+10054,"Rose, Ashley",Production Technician I,Production,Active,2014-01-06,,Website
+10065,"Rossetti, Bruno",Production Technician I,Production,Voluntarily Terminated,2011-04-04,2018-08-13,Google Search
+10198,"Roup,Simon",IT Manager - DB,IT/IS,Active,2013-01-20,,Indeed
+10222,"Ruiz, Ricardo",IT Manager - DB,IT/IS,Voluntarily Terminated,2012-01-09,2015-11-04,Diversity Job Fair
+10126,"Saada, Adell",Software Engineer,Software Engineering,Active,2012-11-05,,Indeed
+10295,"Saar-Beckles, Melinda",Production Technician I,Production,Active,2016-07-04,,Diversity Job Fair
+10260,"Sadki, Nore",Production Technician I,Production,Voluntarily Terminated,2009-01-05,2018-07-30,Google Search
+10233,"Sahoo, Adil",Production Technician II,Production,Active,2010-08-30,,CareerBuilder
+10229,"Salter, Jason",Data Analyst,IT/IS,Voluntarily Terminated,2015-01-05,2015-10-31,LinkedIn
+10169,"Sander, Kamrin",Production Technician I,Production,Active,2014-09-29,,LinkedIn
+10071,"Sewkumar, Nori",Production Technician I,Production,Active,2013-09-30,,Google Search
+10179,"Shepard, Anita",Network Engineer,IT/IS,Active,2014-09-30,,LinkedIn
+10091,"Shields, Seffi",Production Technician I,Production,Active,2013-08-19,,LinkedIn
+10178,"Simard, Kramer",Data Analyst,IT/IS,Active,2015-01-05,,Employee Referral
+10039,"Singh, Nan",Administrative Assistant,Admin Offices,Active,2015-05-01,,Website
+10095,"Sloan, Constance",Production Technician II,Production,Voluntarily Terminated,2009-10-26,2015-04-08,CareerBuilder
+10027,"Smith, Joe",Production Technician II,Production,Active,2014-09-29,,Indeed
+10291,"Smith, John",Sales Manager,Sales,Active,2014-05-18,,Diversity Job Fair
+10153,"Smith, Leigh Ann",Administrative Assistant,Admin Offices,Voluntarily Terminated,2011-09-26,2013-09-25,Diversity Job Fair
+10157,"Smith, Sade",Production Technician I,Production,Active,2013-11-11,,Employee Referral
+10119,"Soto, Julia",IT Support,IT/IS,Active,2011-06-10,,LinkedIn
+10180,"Soze, Keyser",Sr. Network Engineer,IT/IS,Active,2016-06-30,,LinkedIn
+10302,"Sparks, Taylor",Production Technician I,Production,Active,2012-02-20,,Indeed
+10090,"Spirea, Kelley",Production Manager,Production,Active,2012-10-02,,LinkedIn
+10030,"Squatrito, Kristen",Production Technician I,Production,Voluntarily Terminated,2013-05-13,2015-06-29,LinkedIn
+10278,"Stanford,Barbara  M",Production Technician I,Production,Active,2011-01-10,,Google Search
+10307,"Stansfield, Norman",Area Sales Manager,Sales,Active,2014-05-12,,Website
+10147,"Steans, Tyrone",Accountant I,Admin Offices,Active,2014-09-29,,Indeed
+10266,"Stoica, Rick",Production Technician I,Production,Active,2014-02-17,,LinkedIn
+10241,"Strong, Caitrin",Area Sales Manager,Sales,Active,2010-09-27,,Indeed
+10158,"Sullivan, Kissy",Production Manager,Production,Active,2009-01-08,,Indeed
+10117,"Sullivan, Timothy",Production Technician I,Production,Active,2015-01-05,,Google Search
+10209,"Sutwell, Barbara",Production Technician I,Production,Active,2012-05-14,,Indeed
+10024,"Szabo, Andrew",Software Engineer,Software Engineering,Active,2014-07-07,,LinkedIn
+10173,"Tannen, Biff",BI Developer,IT/IS,Active,2017-04-20,,Indeed
+10221,"Tavares, Desiree",Production Technician I,Production,Voluntarily Terminated,2009-04-27,2013-04-01,Diversity Job Fair
+10146,"Tejeda, Lenora",Production Technician II,Production,Voluntarily Terminated,2011-05-16,2017-07-08,Google Search
+10161,"Terry, Sharlene",Area Sales Manager,Sales,Active,2014-09-29,,Indeed
+10141,"Theamstern, Sophia",Production Technician I,Production,Voluntarily Terminated,2011-07-05,2016-09-05,Indeed
+10268,"Thibaud, Kenneth",Production Technician II,Production,Voluntarily Terminated,2007-06-25,2010-08-30,Other
+10123,"Tippett, Jeanette",Production Technician I,Production,Active,2013-02-18,,Indeed
+10013,"Torrence, Jack",Area Sales Manager,Sales,Active,2006-01-09,,Indeed
+10287,"Trang, Mei",Production Technician I,Production,Active,2014-02-17,,LinkedIn
+10044,"Tredinnick, Neville",Network Engineer,IT/IS,Voluntarily Terminated,2015-01-05,2016-02-12,CareerBuilder
+10102,"True, Edward",Software Engineer,Software Engineering,Voluntarily Terminated,2013-02-18,2018-04-15,Diversity Job Fair
+10270,"Trzeciak, Cybil",Production Technician II,Production,Voluntarily Terminated,2011-01-10,2014-07-02,LinkedIn
+10045,"Turpin, Jumil",Network Engineer,IT/IS,Active,2015-03-30,,Employee Referral
+10205,"Valentin,Jackie",Area Sales Manager,Sales,Active,2011-07-05,,Indeed
+10014,"Veera, Abdellah",Production Technician I,Production,Voluntarily Terminated,2012-08-13,2016-02-05,LinkedIn
+10144,"Vega, Vincent",Production Manager,Production,Active,2011-08-01,,Employee Referral
+10253,"Villanueva, Noah",Area Sales Manager,Sales,Active,2012-03-05,,Website
+10118,"Voldemort, Lord",Database Administrator,IT/IS,Terminated for Cause,2015-02-16,2017-02-22,Employee Referral
+10022,"Volk, Colleen",Production Technician I,Production,Terminated for Cause,2011-09-26,2016-02-08,Google Search
+10183,"Von Massenbach, Anna",Production Technician I,Production,Active,2015-07-05,,LinkedIn
+10190,"Walker, Roger",Production Technician II,Production,Active,2014-08-18,,Employee Referral
+10274,"Wallace, Courtney  E",Production Manager,Production,Voluntarily Terminated,2011-09-26,2012-01-02,Diversity Job Fair
+10293,"Wallace, Theresa",Production Technician I,Production,Voluntarily Terminated,2012-08-13,2015-09-01,CareerBuilder
+10172,"Wang, Charlie",Senior BI Developer,IT/IS,Active,2017-02-15,,Indeed
+10127,"Warfield, Sarah",Sr. Network Engineer,IT/IS,Active,2015-03-30,,Employee Referral
+10072,"Whittier, Scott",Production Technician I,Production,Voluntarily Terminated,2011-01-10,2014-05-15,LinkedIn
+10048,"Wilber, Barry",Production Technician I,Production,Voluntarily Terminated,2011-05-16,2015-09-07,Website
+10204,"Wilkes, Annie",Production Technician I,Production,Voluntarily Terminated,2011-01-10,2012-05-14,Google Search
+10264,"Williams, Jacquelyn",Production Technician I,Production,Voluntarily Terminated,2012-01-09,2015-06-27,Diversity Job Fair
+10033,"Winthrop, Jordan",Production Technician II,Production,Voluntarily Terminated,2013-01-07,2016-02-21,LinkedIn
+10174,"Wolk, Hang  T",Production Technician II,Production,Active,2014-09-29,,LinkedIn
+10135,"Woodson, Jason",Production Technician II,Production,Active,2014-07-07,,LinkedIn
+10301,"Ybarra, Catherine",Production Technician I,Production,Voluntarily Terminated,2008-09-02,2015-09-29,Google Search
+10010,"Zamora, Jennifer",CIO,IT/IS,Active,2010-04-10,,Employee Referral
+10043,"Zhou, Julia",Data Analyst,IT/IS,Active,2015-03-30,,Employee Referral
+10271,"Zima, Colleen",Production Technician I,Production,Active,2014-09-29,,LinkedIn

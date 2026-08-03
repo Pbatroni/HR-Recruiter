@@ -79,7 +79,7 @@ function renderTable() {
   tableBody.innerHTML = '';
 
   if (!visibleEmployees.length) {
-    tableBody.innerHTML = '<tr><td colspan="7">No matching employees found.</td></tr>';
+    tableBody.innerHTML = '<tr><td colspan="8">No matching employees found.</td></tr>';
     return;
   }
 
@@ -89,11 +89,12 @@ function renderTable() {
     row.innerHTML = `
       <td>${employee.employee_id}</td>
       <td>${employee.full_name}</td>
+      <td>${employee.job_title}</td>
       <td>${employee.department}</td>
-      <td>${employee.recruiting_source}</td>
       <td><span class="status-badge ${badgeClass}">${employee.employment_status}</span></td>
       <td>${formatDate(employee.date_of_hire)}</td>
       <td>${formatDate(employee.date_of_termination)}</td>
+      <td>${employee.recruitment_source}</td>
     `;
     tableBody.appendChild(row);
   });
@@ -129,5 +130,5 @@ departmentFilter.addEventListener('change', (event) => {
 
 loadData().catch((error) => {
   console.error('Failed to load employee dashboard data', error);
-  tableBody.innerHTML = '<tr><td colspan="7">Unable to load employee data.</td></tr>';
+  tableBody.innerHTML = '<tr><td colspan="8">Unable to load employee data.</td></tr>';
 });
